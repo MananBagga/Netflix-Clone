@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+body{
+    background-color: black;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +14,8 @@
     background-image: url("/Images/bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1800px, 100vw);
-    height: 97vh;
+    background-size: max(2000px, 100vw);
+    height: 96vh;
     position: relative;
 }
 
@@ -21,7 +25,7 @@
     top: 0;
     height: 97vh;
     width: 100%;
-    opacity: 0.56;
+    opacity: 0.6;
 }
 
 nav{
@@ -30,7 +34,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    height: 95px;
+    height: 97px;
 }
 
 nav img{
@@ -46,7 +50,7 @@ nav button{
 }
 
 .hero{
-    height: 70%;
+    height: calc(100% - 97px);
     position: relative;
     color: white;
     display: flex;
@@ -54,19 +58,89 @@ nav button{
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    padding: 0 30px;
 }
 
-.hero :first-child{
+.hero > :first-child{
     font-size: 48px;
     font-weight: 900;
+    text-align: center;
 }
 
-.hero :nth-child(2){
+.hero > :nth-child(2){
     font-size: 24px;
     font-weight: 400;
+    text-align: center;
 }
 
-.hero :nth-child(3){
+.hero > :nth-child(3){
     font-size: 20px;
     font-weight: 400;
+    text-align: center;
+}
+
+.line{
+    height: 8px;
+    background-color: rgb(35, 35, 35);
+    position: relative;
+    z-index: 3;
+}
+
+.btn{
+    font-weight: 530;
+    padding: 4px 9px;
+    background-color: rgba(23, 23, 23, 0.6);
+    border-radius: 3px;
+    color: white;
+    border: 1px solid rgb(99, 99, 99);
+}
+
+.btn-red-sm{
+    background-color: rgb(195, 0, 0);
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-red{
+    cursor: pointer;
+    background-color: rgb(195, 0, 0);
+    color: white;
+    border: none;
+    padding: 10.8px 25px;
+    font-size: 24px;
+}
+
+.btn-red:hover, .btn-red-sm:hover{
+    background-color: rgb(165, 0, 0);
+}
+
+.main input{
+    padding: 18px 165px 14px 12px;
+    box-sizing: border-box;
+    background-color: rgba(23, 23, 23, 0.6);
+    font-size: 16px;
+    border: 1px solid rgb(99, 99, 99);
+    border-radius: 3px;
+    font-weight: 350;
+}
+
+.btn-red img{
+    width: 23px;
+}
+
+.getting-started{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+
+.right-side-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }

@@ -9,11 +9,14 @@
   <body>
     <div class="main">
       <nav>
-        <span><img width="39" src="/Images/logo.svg" fil alt="#"/></span>
+        <span><img width="39" src="/Images/logo.svg" fil alt="#" /></span>
 
-        <div>
-          <button>English</button>
-          <button>Sign In</button>
+        <div class="right-side-btn">
+          <select name="lang" id="lang" class="btn">
+            <option value="Eng">English</option>
+            <option value="Hin">Hindi</option>
+          </select>
+          <button class="btn btn-red-sm">Sign In</button>
         </div>
       </nav>
 
@@ -22,8 +25,16 @@
       <div class="hero">
         <span>Unlimited movies, TV shows and more</span>
         <span>Watch anywhere. Cancel anytime.</span>
-        <span>Ready to watch? Enter your email to create or restart your membership.</span>
+        <span>Ready to watch? Enter your email to create or restart your
+          membership.</span>
+
+        <div class="getting-started">
+          <input type="text" placeholder="Email address" />
+          <button class="btn btn-red">Get Started <img src="/Images/icons8-right-arrow-50.png" alt=""></button>
+        </div>
       </div>
+
+      <div class="line"></div>
     </div>
   </body>
 </html>
