@@ -111,6 +111,7 @@ nav button{
     border: none;
     padding: 10.8px 25px;
     font-size: 24px;
+    font-weight: 500;
 }
 
 .btn-red:hover, .btn-red-sm:hover{
@@ -125,6 +126,7 @@ nav button{
     border: 1px solid rgb(99, 99, 99);
     border-radius: 3px;
     font-weight: 350;
+    color: white;
 }
 
 .btn-red img{
