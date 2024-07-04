@@ -146,3 +146,51 @@ nav button{
     align-items: center;
     gap: 20px;
 }
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 78vw;
+    margin: auto;
+    align-items: center;
+    color: white;
+    padding: 80px;
+    gap: 10px;
+}
+
+.sec-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-img img{
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+}
+
+.sec-img video{
+    position: absolute;
+    top: 88px;
+    right: 0px;
+    left: 78px;
+    height:240px;
+    object-fit: contain;
+}
+
+.sec-text > :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sec-text > :nth-child(2){
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#t-vid{
+    position: absolute;
+    object-fit: contain;
+}
