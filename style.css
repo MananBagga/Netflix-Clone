@@ -88,11 +88,21 @@ nav button{
 
 .btn{
     font-weight: 530;
-    padding: 4px 9px;
+    padding: 6px 11px;
     background-color: rgba(23, 23, 23, 0.6);
     border-radius: 3px;
     color: white;
     border: 1px solid rgb(99, 99, 99);
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#lang{
+    background-color: rgba(23, 23, 23, 0);
+    color: white;
+    border: none;
 }
 
 .btn-red-sm{
@@ -231,4 +241,43 @@ input{
     padding-top: 23px;
     text-align: center;
     margin: 12px;
+}
+
+footer{
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    padding: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer div{
+    padding: 8px 0;
+    font-weight: 300;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-item a{
+    color: white;
+    font-weight: 200;
+}
+
+.last{
+    font-size: 14px;
+}
+
+.lastbtn{
+    margin: 18px 0;
 }
