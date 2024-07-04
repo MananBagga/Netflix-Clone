@@ -118,7 +118,7 @@ nav button{
     background-color: rgb(165, 0, 0);
 }
 
-.main input{
+input{
     padding: 18px 165px 14px 12px;
     box-sizing: border-box;
     background-color: rgba(23, 23, 23, 0.6);
@@ -193,4 +193,42 @@ nav button{
 #t-vid{
     position: absolute;
     object-fit: contain;
+}
+
+.faq h1{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.faq{
+    color: white;
+    padding-bottom: 70px;
+}
+
+.faqbox{
+    transition: all 0.4s ease-out;
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    max-width: 75vw;
+    margin: 12px auto;
+}
+
+.faqbox:hover{
+    background-color: rgb(69, 69, 69);
+    cursor: pointer;
+}
+
+.txt{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 23px;
+    text-align: center;
+    margin: 12px;
 }
